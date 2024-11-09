@@ -1,0 +1,15 @@
+{
+    "name": "danilocgsilva/payload_panacea_admin",
+    "autoload": {
+        "psr-4": {
+            "Danilocgsilva\\PayloadPanaceaAdmin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danilo Silva",
+            "email": "contact@danilocgsilva.me"
+        }
+    ],
+    "require": {}
+}
