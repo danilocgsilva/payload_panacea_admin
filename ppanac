@@ -24,7 +24,7 @@ $connection = DriverManager::getConnection($dbParams);
 
 $configuration = new Configuration($connection);
 
-$configuration->addMigrationsDirectory('Danilocgsilva\PayloadPanacea', './vendor/danilocgsilva/payload_panacea/migrations/');
+$configuration->addMigrationsDirectory('Danilocgsilva\PayloadPanacea\Migrations', './vendor/danilocgsilva/payload_panacea/migrations/');
 $configuration->setAllOrNothing(true);
 $configuration->setCheckDatabasePlatform(false);
 

@@ -13,6 +13,8 @@
     ],
     "require": {
         "symfony/console": "^7.1",
-        "danilocgsilva/payload_panacea": "^1.0"
+        "danilocgsilva/payload_panacea": "^1.0",
+        "doctrine/dbal": "^4.2",
+        "doctrine/migrations": "^3.8"
     }
 }
