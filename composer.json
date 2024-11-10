@@ -12,6 +12,7 @@
         }
     ],
     "require": {
-        "symfony/console": "^7.1"
+        "symfony/console": "^7.1",
+        "danilocgsilva/payload_panacea": "^1.0"
     }
 }

@@ -4,8 +4,76 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f87ad3c34bf70f451eee287b58887aaa",
+    "content-hash": "d0d61579a36e82f534a489d72fc0d14b",
     "packages": [
+        {
+            "name": "danilocgsilva/payload_panacea",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/danilocgsilva/payload_panacea.git",
+                "reference": "51acf46a055a894b8d7dfd50b0b1bf92bff187f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/danilocgsilva/payload_panacea/zipball/51acf46a055a894b8d7dfd50b0b1bf92bff187f7",
+                "reference": "51acf46a055a894b8d7dfd50b0b1bf92bff187f7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "conflict": {
+                "symfony/symfony": "*"
+            },
+            "replace": {
+                "symfony/polyfill-ctype": "*",
+                "symfony/polyfill-iconv": "*",
+                "symfony/polyfill-php72": "*",
+                "symfony/polyfill-php73": "*",
+                "symfony/polyfill-php74": "*",
+                "symfony/polyfill-php80": "*",
+                "symfony/polyfill-php81": "*",
+                "symfony/polyfill-php82": "*"
+            },
+            "require-dev": {
+                "doctrine/dbal": "^3",
+                "doctrine/doctrine-bundle": "^2.13",
+                "doctrine/doctrine-migrations-bundle": "^3.3",
+                "doctrine/orm": "^3.3",
+                "ext-ctype": "*",
+                "ext-iconv": "*",
+                "symfony/console": "7.1.*",
+                "symfony/dotenv": "7.1.*",
+                "symfony/flex": "^2",
+                "symfony/framework-bundle": "7.1.*",
+                "symfony/maker-bundle": "^1.61",
+                "symfony/runtime": "7.1.*",
+                "symfony/yaml": "7.1.*"
+            },
+            "type": "project",
+            "extra": {
+                "symfony": {
+                    "allow-contrib": false,
+                    "require": "7.1.*",
+                    "docker": false
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Danilocgsilva\\PayloadPanacea\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "support": {
+                "issues": "https://github.com/danilocgsilva/payload_panacea/issues",
+                "source": "https://github.com/danilocgsilva/payload_panacea/tree/1.0.0"
+            },
+            "time": "2024-11-06T09:43:55+00:00"
+        },
         {
             "name": "psr/container",
             "version": "2.0.2",
@@ -218,85 +286,6 @@
                 }
             ],
             "time": "2024-04-18T09:32:20+00:00"
-        },
-        {
-            "name": "symfony/polyfill-ctype",
-            "version": "v1.31.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/a3cc8b044a6ea513310cbd48ef7333b384945638",
-                "reference": "a3cc8b044a6ea513310cbd48ef7333b384945638",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2"
-            },
-            "provide": {
-                "ext-ctype": "*"
-            },
-            "suggest": {
-                "ext-ctype": "For best performance"
-            },
-            "type": "library",
-            "extra": {
-                "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "bootstrap.php"
-                ],
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill for ctype functions",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "ctype",
-                "polyfill",
-                "portable"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2024-09-09T11:45:10+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
